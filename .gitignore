@@ -1,0 +1,12 @@
+__pycache__
+meteotools/__pycache__
+meteotools/*.dll
+meteotools/*.pyd
+meteotools/*.so
+data/*
+output/*
+*.png
+meteotools/lib/*
+meteotools/*.mod
+meteotools/old_code
+

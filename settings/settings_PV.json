@@ -1,0 +1,55 @@
+{
+    "wrf": {
+        "wrfout_dir": "C:\\Users\\fish5045\\Desktop\\work\\wrfdata",
+        "start_yr": 2019,
+        "start_mo": 8,
+        "start_dy": 8,
+        "start_hr": 11,
+        "start_mi": 0,
+        "start_sc": 0,
+        "end_yr": 2019,
+        "end_mo": 8,
+        "end_dy": 8,
+        "end_hr": 14,
+        "end_mi": 0,
+        "end_sc": 0,
+        "domain": 4,
+        "dt": 300
+    },
+    "cylindrical_grid": {
+        "Nr": 151,
+        "Ntheta": 720,
+        "Nz": 40,
+        "dr": 1000,
+        "dtheta": 0.008726646259971648,
+        "dz": 500,
+        "z_start": 60,
+        "r_start": 0,
+        "theta_start": 0,
+        "vertical_coord_type": "z",
+        "dt": 300
+    },
+    "cartesian_grid": {
+        "Nx": 350,
+        "Ny": 350,
+        "Nz": 192,
+        "dx": 2000,
+        "dy": 2000,
+        "dz": 120,
+        "z_start": 60,
+        "vertical_coord_type": "z",
+        "x_boundry_west": "Neumann",
+        "x_boundry_east": "Neumann",
+        "y_boundry_south": "Neumann",
+        "y_boundry_north": "Neumann",
+        "z_boundry_bottom": "Neumann",
+        "z_boundry_top": "Zero",
+        "SOR_parameter": 1.947,
+        "max_iteration_times": 2501,
+        "iteration_tolerance": 0.05
+    },
+    "system": {
+        "calc_cpus": 8,
+        "interp_cpus": 8
+    }
+}

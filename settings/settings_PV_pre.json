@@ -1,0 +1,37 @@
+{
+    "wrf": {
+        "wrfout_dir": "C:\\Users\\fish5045\\Desktop\\work\\wrfdata",
+        "start_yr": 2019,
+        "start_mo": 8,
+        "start_dy": 8,
+        "start_hr": 11,
+        "start_mi": 0,
+        "start_sc": 0,
+        "end_yr": 2019,
+        "end_mo": 8,
+        "end_dy": 8,
+        "end_hr": 14,
+        "end_mi": 0,
+        "end_sc": 0,
+        "domain": 4,
+        "dt": 300
+    },
+    "cylindrical_grid": {
+        "Nr": 151,
+        "Ntheta": 360,
+        "Nz": 40,
+        "dr": 1000,
+        "dtheta": 0.017453292519943295,
+        "dz": 500,
+        "z_start": 60,
+        "r_start": 0,
+        "theta_start": 0,
+        "vertical_coord_type": "z",
+        "dt": 300
+    },
+    "cartesian_grid": {},
+    "system": {
+        "calc_cpus": 8,
+        "interp_cpus": 8
+    }
+}
