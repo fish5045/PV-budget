@@ -62,7 +62,7 @@ dcar['iteration_tolerance'] = 5e-2     #SOR 收斂係數
 
 #系統相關設定
 dsys = d['system']
-dsys['calc_cpus'] = 8
+dsys['calc_cpus'] = 2
 dsys['interp_cpus'] = 8
 
 

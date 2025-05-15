@@ -43,7 +43,7 @@ dcyl['dt'] = 300                          #tendency 使用的dt
 
 #系統相關設定
 dsys = d['system']
-dsys['calc_cpus'] = 8
+dsys['calc_cpus'] = 2
 dsys['interp_cpus'] = 8
 
 
